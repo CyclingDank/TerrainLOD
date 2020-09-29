@@ -51,7 +51,7 @@ int main()
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 	glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
-	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "CS114 Final Project", nullptr, nullptr);
+	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "Terrain LOD", nullptr, nullptr);
 	if (nullptr == window)
 	{
 		std::cout << "ERROR::GLFW WINDOW FAILED TO CREATE" << std::endl;
